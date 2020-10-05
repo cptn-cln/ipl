@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL LIVE</title>
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  body{
+    align-items: center;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    max-width: 2340px;
+    max-height: 1080px;
+  }
+
+  h1{
+    color: #ffd900;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    width: 100%;
+  }
+
+  .live{
+   position: relative;
+   width: 100%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 50vh;
+  }
+
+  .chat{
+    position: relative;
+    display: inline;
+    width: 300px;
+
+  }
+</style>
+
+<body>
+    <h1>IPL 2020 LIVE</h1>
+    <div class="live">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UC_wlJ-Lmm-14Q0_nDLZgoNQ" frameborder="0" allowfullscreen></iframe></div>
+    <!-- <div class="chat"><widgetbot
+      server="540216019717718024"
+      channel="762325570599387190"
+      width="350"
+      height="400"
+    ></widgetbot></div> -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({
+    server: '540216019717718024', // DUMB!
+    channel: '762325570599387190', // #webiste-chat
+    glyph:
+    ['https://www.logolynx.com/images/logolynx/cd/cdd59a3d7288df84335a3c5a61b1652d.png','100%']
+  })
+</script>
+</html>
